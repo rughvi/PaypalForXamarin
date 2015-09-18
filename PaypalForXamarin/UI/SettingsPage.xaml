@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="PaypalForXamarin.SettingsPage">
+	<ContentPage.Content>
+	<RelativeLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+		<Label x:Name="lblProduction" Text="Production"
+			RelativeLayout.XConstraint=
+                 "{ConstraintExpression Type=RelativeToParent,
+                 						Property=Width,
+                 						Factor = 0.25}"
+             RelativeLayout.YConstraint=
+                 "{ConstraintExpression Type=Constant, 
+                                        Constant=20}"
+             RelativeLayout.WidthConstraint = 
+             	 "{ConstraintExpression Type=RelativeToParent,
+             	 						Property=Width,
+     	 								Factor=0.5}"
+        ></Label>
+		<Switch x:Name="swtProduction" Toggled="OnProductionSwitchToggled"
+			RelativeLayout.XConstraint=
+                 "{ConstraintExpression Type=RelativeToParent,
+                 						Property = Width,
+                                        Factor=0.75}"
+             RelativeLayout.YConstraint=
+                 "{ConstraintExpression Type=Constant, 
+                                        Constant=20}"
+             RelativeLayout.WidthConstraint = 
+             	 "{ConstraintExpression Type=RelativeToParent,
+             	 						Property=Width,
+     	 								Factor=0.5}"
+        ></Switch>
+
+        <Label x:Name="lblSandbox" Text="Sandbox"
+			RelativeLayout.XConstraint=
+                 "{ConstraintExpression Type=RelativeToView,
+                 						ElementName=lblProduction,
+             							Property = X,
+                                        Constant=0}"
+             RelativeLayout.YConstraint=
+                 "{ConstraintExpression Type=RelativeToView,
+                 						ElementName=lblProduction,
+                 						Property=Height, 
+                                        Constant=40}"
+        ></Label>
+		<Switch x:Name="swtSandbox" Toggled="OnSandboxSwitchToggled"
+			RelativeLayout.XConstraint=
+                 "{ConstraintExpression Type=RelativeToView,
+                 						ElementName= swtProduction,
+                 						Property = X,
+                                        Constant=0}"
+             RelativeLayout.YConstraint=
+                 "{ConstraintExpression Type=RelativeToView,
+                 						ElementName=lblProduction,
+                 						Property=Height, 
+                                        Constant=40}"
+        ></Switch>
+
+
+        <Label x:Name="lblMock" Text="Mock"
+			RelativeLayout.XConstraint=
+                 "{ConstraintExpression Type=RelativeToView,
+                 						ElementName=lblProduction,
+             							Property = X,
+                                        Constant=0}"
+             RelativeLayout.YConstraint=
+                 "{ConstraintExpression Type=RelativeToView,
+                 						ElementName=lblProduction,
+                 						Property=Height, 
+                                        Constant=80}"
+        ></Label>
+		<Switch x:Name="swtMock" Toggled="OnMockSwitchToggled"
+			RelativeLayout.XConstraint=
+                 "{ConstraintExpression Type=RelativeToView,
+                 						ElementName= swtProduction,
+                 						Property = X,
+                                        Constant=0}"
+             RelativeLayout.YConstraint=
+                 "{ConstraintExpression Type=RelativeToView,
+                 						ElementName=lblProduction,
+                 						Property=Height, 
+                                        Constant=80}"
+        ></Switch>
+
+	</RelativeLayout>
+	</ContentPage.Content>
+</ContentPage>

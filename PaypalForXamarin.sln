@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaypalForXamarin.Droid", "D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaypalForXamarin.UITests", "UITests\PaypalForXamarin.UITests.csproj", "{BFB0D118-512D-4FB3-B7D0-DE3E83E5DF2D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaypaliOSBinding", "PaypaliOSBinding\PaypaliOSBinding.csproj", "{65F706B5-217F-4B9A-B15F-279641BA7712}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,18 @@ Global
 		{3940B446-3222-440E-8F75-EDD14E558FC2}.Release|iPhone.Build.0 = Release|Any CPU
 		{3940B446-3222-440E-8F75-EDD14E558FC2}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
 		{3940B446-3222-440E-8F75-EDD14E558FC2}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{65F706B5-217F-4B9A-B15F-279641BA7712}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65F706B5-217F-4B9A-B15F-279641BA7712}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65F706B5-217F-4B9A-B15F-279641BA7712}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{65F706B5-217F-4B9A-B15F-279641BA7712}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{65F706B5-217F-4B9A-B15F-279641BA7712}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{65F706B5-217F-4B9A-B15F-279641BA7712}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{65F706B5-217F-4B9A-B15F-279641BA7712}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65F706B5-217F-4B9A-B15F-279641BA7712}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65F706B5-217F-4B9A-B15F-279641BA7712}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{65F706B5-217F-4B9A-B15F-279641BA7712}.Release|iPhone.Build.0 = Release|Any CPU
+		{65F706B5-217F-4B9A-B15F-279641BA7712}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{65F706B5-217F-4B9A-B15F-279641BA7712}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 		{99EB8604-2250-4386-948F-D05FFC8FEA5E}.Debug|Any CPU.ActiveCfg = Debug|iPhoneSimulator
 		{99EB8604-2250-4386-948F-D05FFC8FEA5E}.Debug|Any CPU.Build.0 = Debug|iPhoneSimulator
 		{99EB8604-2250-4386-948F-D05FFC8FEA5E}.Debug|iPhone.ActiveCfg = Debug|iPhone
