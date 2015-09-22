@@ -1,8 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="PaypalForXamarin.SettingsPage">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="PaypalForXamarin.SettingsPage"
+BackgroundColor="White">
 	<ContentPage.Content>
 	<RelativeLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
-		<Label x:Name="lblProduction" Text="Production"
+		<Label x:Name="lblProduction" Text="Production" TextColor="Black"
 			RelativeLayout.XConstraint=
                  "{ConstraintExpression Type=RelativeToParent,
                  						Property=Width,
@@ -23,13 +24,9 @@
              RelativeLayout.YConstraint=
                  "{ConstraintExpression Type=Constant, 
                                         Constant=20}"
-             RelativeLayout.WidthConstraint = 
-             	 "{ConstraintExpression Type=RelativeToParent,
-             	 						Property=Width,
-     	 								Factor=0.5}"
         ></Switch>
 
-        <Label x:Name="lblSandbox" Text="Sandbox"
+        <Label x:Name="lblSandbox" Text="Sandbox"  TextColor="Black"
 			RelativeLayout.XConstraint=
                  "{ConstraintExpression Type=RelativeToView,
                  						ElementName=lblProduction,
@@ -55,7 +52,7 @@
         ></Switch>
 
 
-        <Label x:Name="lblMock" Text="Mock"
+        <Label x:Name="lblMock" Text="Mock"  TextColor="Black"
 			RelativeLayout.XConstraint=
                  "{ConstraintExpression Type=RelativeToView,
                  						ElementName=lblProduction,

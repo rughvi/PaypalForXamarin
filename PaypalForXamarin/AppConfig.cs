@@ -25,6 +25,7 @@ namespace PaypalForXamarin
 
 		public const string kPayPalClientId = @"YOUR_PAYPAL_CLIENT_ID";
 		public const string kPayPalReceiverEmail = @"YOUR_RECEIVER_EMAIL_ID";
+		public const int REQUEST_CODE_PAYPAL_PAYMENT = 1;
 	}
 
 	public enum Environment

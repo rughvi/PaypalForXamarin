@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaypalForXamarin.UITests", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaypaliOSBinding", "PaypaliOSBinding\PaypaliOSBinding.csproj", "{65F706B5-217F-4B9A-B15F-279641BA7712}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaypalDroidBinding", "PaypalDroidBinding\PaypalDroidBinding.csproj", "{18DA00D6-8E91-4139-8688-03253FDA3BEB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,18 @@ Global
 		Debug|iPhone = Debug|iPhone
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18DA00D6-8E91-4139-8688-03253FDA3BEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18DA00D6-8E91-4139-8688-03253FDA3BEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18DA00D6-8E91-4139-8688-03253FDA3BEB}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{18DA00D6-8E91-4139-8688-03253FDA3BEB}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{18DA00D6-8E91-4139-8688-03253FDA3BEB}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{18DA00D6-8E91-4139-8688-03253FDA3BEB}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{18DA00D6-8E91-4139-8688-03253FDA3BEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18DA00D6-8E91-4139-8688-03253FDA3BEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18DA00D6-8E91-4139-8688-03253FDA3BEB}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{18DA00D6-8E91-4139-8688-03253FDA3BEB}.Release|iPhone.Build.0 = Release|Any CPU
+		{18DA00D6-8E91-4139-8688-03253FDA3BEB}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{18DA00D6-8E91-4139-8688-03253FDA3BEB}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 		{3940B446-3222-440E-8F75-EDD14E558FC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3940B446-3222-440E-8F75-EDD14E558FC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3940B446-3222-440E-8F75-EDD14E558FC2}.Debug|iPhone.ActiveCfg = Debug|Any CPU
